@@ -127,16 +127,22 @@
         <div class="left-block flex_column">
             <div class="left-filter">
                 <div class="filter__block">
-                    <input type="checkbox">
-                    <div class="filter-name">Наличие в магазинах</div>
+                    <div class="filter__header">
+                        <input class="filter-checkbox" type="checkbox">
+                        <div class="filter-name">Наличие в магазинах</div>
+                    </div>
                 </div>
                 <div class="filter__block">
-                    <input type="checkbox">
-                    <div class="filter-name">Рейтинг 4 и выше</div>
+                    <div class="filter__header">
+                        <input class="filter-checkbox" type="checkbox">
+                        <div class="filter-name">Рейтинг 4 и выше</div>
+                    </div>
                 </div>
                 <div class="filter__block">
-                    <input type="checkbox">
-                    <div class="filter-name">Надёжные модели</div>
+                    <div class="filter__header">
+                        <input class="filter-checkbox" type="checkbox">
+                        <div class="filter-name">Надёжные модели</div>
+                    </div>
                 </div>
 
                 <div class="filter__block filter-price flex_column ">
@@ -150,107 +156,143 @@
 
                     <div class="price-range flex_column">
                         <div class="filter__block-price">
-                            <input type="checkbox">
+                            <input class="filter-checkbox" type="checkbox">
                             <div class="filter-name">Менее 1 000 ₽</div>
                         </div>
                         <div class="filter__block-price">
-                            <input type="checkbox">
+                            <input class="filter-checkbox" type="checkbox">
                             <div class="filter-name">1001 - 15000 ₽</div>
                         </div>
                         <div class="filter__block-price">
-                            <input type="checkbox">
+                            <input class="filter-checkbox" type="checkbox">
                             <div class="filter-name">15001 - 23000 ₽</div>
                         </div>
                         <div class="filter__block-price">
-                            <input type="checkbox">
+                            <input class="filter-checkbox" type="checkbox">
                             <div class="filter-name">23001 и более ₽</div>
                         </div>
                     </div>
 
 
                 </div>
-                <div class="filter__block">
-                    <svg width="17" height="17" viewBox="-1.5 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_731_190)">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.47236 11.5945C9.2166 11.8542 8.8699 12 8.50843 12C8.14696 12 7.80026 11.8542 7.54451 11.5945L2.39933 6.36676C2.14356 6.10667 1.99991 5.75396 2 5.38622C2.00009 5.01849 2.14389 4.66585 2.39978 4.40588C2.65567 4.14591 3.00268 3.99991 3.36448 4C3.72628 4.00009 4.07323 4.14625 4.329 4.40634L8.50843 8.65437L12.6879 4.40634C12.945 4.15367 13.2895 4.01375 13.6472 4.01674C14.0048 4.01973 14.347 4.16537 14.6 4.42231C14.8531 4.67924 14.9967 5.02691 14.9999 5.39043C15.0032 5.75395 14.8659 6.10423 14.6175 6.36583L9.47327 11.5955L9.47236 11.5945Z" fill="#B8B7B7"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_731_190">
-                        <rect width="17" height="17" fill="white"/>
-                        </clipPath>
-                        </defs>
+                <div class="filter__block filter__block-hidden">
+                    <div class="filter__header filter__header-clickable filter-closed">
+                        <svg width="17" height="17" viewBox="-1.5 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_731_190)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.47236 11.5945C9.2166 11.8542 8.8699 12 8.50843 12C8.14696 12 7.80026 11.8542 7.54451 11.5945L2.39933 6.36676C2.14356 6.10667 1.99991 5.75396 2 5.38622C2.00009 5.01849 2.14389 4.66585 2.39978 4.40588C2.65567 4.14591 3.00268 3.99991 3.36448 4C3.72628 4.00009 4.07323 4.14625 4.329 4.40634L8.50843 8.65437L12.6879 4.40634C12.945 4.15367 13.2895 4.01375 13.6472 4.01674C14.0048 4.01973 14.347 4.16537 14.6 4.42231C14.8531 4.67924 14.9967 5.02691 14.9999 5.39043C15.0032 5.75395 14.8659 6.10423 14.6175 6.36583L9.47327 11.5955L9.47236 11.5945Z" fill="#B8B7B7"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_731_190">
+                            <rect width="17" height="17" fill="white"/>
+                            </clipPath>
+                            </defs>
                         </svg>
-                        
-                    <div class="filter-name">Диагональ</div>
+                            
+                        <div class="filter-name">Диагональ</div>
+                    </div>
+                    <div class="filter-content">
+                        <div class="block-100px"></div>
+                        <div class="block-200px"></div>
+                    </div>
                 </div>
-                <div class="filter__block">
-                    <svg width="17" height="17" viewBox="-1.5 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_731_190)">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.47236 11.5945C9.2166 11.8542 8.8699 12 8.50843 12C8.14696 12 7.80026 11.8542 7.54451 11.5945L2.39933 6.36676C2.14356 6.10667 1.99991 5.75396 2 5.38622C2.00009 5.01849 2.14389 4.66585 2.39978 4.40588C2.65567 4.14591 3.00268 3.99991 3.36448 4C3.72628 4.00009 4.07323 4.14625 4.329 4.40634L8.50843 8.65437L12.6879 4.40634C12.945 4.15367 13.2895 4.01375 13.6472 4.01674C14.0048 4.01973 14.347 4.16537 14.6 4.42231C14.8531 4.67924 14.9967 5.02691 14.9999 5.39043C15.0032 5.75395 14.8659 6.10423 14.6175 6.36583L9.47327 11.5955L9.47236 11.5945Z" fill="#B8B7B7"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_731_190">
-                        <rect width="17" height="17" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>
-                        
-                    <div class="filter-name">Операционная система</div>
+                <div class="filter__block filter__block-hidden">
+                    <div class="filter__header filter__header-clickable filter-closed">
+                        <svg width="17" height="17" viewBox="-1.5 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_731_190)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.47236 11.5945C9.2166 11.8542 8.8699 12 8.50843 12C8.14696 12 7.80026 11.8542 7.54451 11.5945L2.39933 6.36676C2.14356 6.10667 1.99991 5.75396 2 5.38622C2.00009 5.01849 2.14389 4.66585 2.39978 4.40588C2.65567 4.14591 3.00268 3.99991 3.36448 4C3.72628 4.00009 4.07323 4.14625 4.329 4.40634L8.50843 8.65437L12.6879 4.40634C12.945 4.15367 13.2895 4.01375 13.6472 4.01674C14.0048 4.01973 14.347 4.16537 14.6 4.42231C14.8531 4.67924 14.9967 5.02691 14.9999 5.39043C15.0032 5.75395 14.8659 6.10423 14.6175 6.36583L9.47327 11.5955L9.47236 11.5945Z" fill="#B8B7B7"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_731_190">
+                            <rect width="17" height="17" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                            
+                        <div class="filter-name">Операционная система</div>
+                    </div>
+                    <div class="filter-content">
+                        <div class="block-100px"></div>
+                        <div class="block-200px"></div>
+                    </div>
                 </div>
-                <div class="filter__block">
-                    <svg width="17" height="17" viewBox="-1.5 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_731_190)">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.47236 11.5945C9.2166 11.8542 8.8699 12 8.50843 12C8.14696 12 7.80026 11.8542 7.54451 11.5945L2.39933 6.36676C2.14356 6.10667 1.99991 5.75396 2 5.38622C2.00009 5.01849 2.14389 4.66585 2.39978 4.40588C2.65567 4.14591 3.00268 3.99991 3.36448 4C3.72628 4.00009 4.07323 4.14625 4.329 4.40634L8.50843 8.65437L12.6879 4.40634C12.945 4.15367 13.2895 4.01375 13.6472 4.01674C14.0048 4.01973 14.347 4.16537 14.6 4.42231C14.8531 4.67924 14.9967 5.02691 14.9999 5.39043C15.0032 5.75395 14.8659 6.10423 14.6175 6.36583L9.47327 11.5955L9.47236 11.5945Z" fill="#B8B7B7"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_731_190">
-                        <rect width="17" height="17" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>                    
-                    <div class="filter-name">Разрешение экрана</div>
+                <div class="filter__block filter__block-hidden">
+                    <div class="filter__header filter__header-clickable  filter-closed">
+                        <svg width="17" height="17" viewBox="-1.5 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_731_190)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.47236 11.5945C9.2166 11.8542 8.8699 12 8.50843 12C8.14696 12 7.80026 11.8542 7.54451 11.5945L2.39933 6.36676C2.14356 6.10667 1.99991 5.75396 2 5.38622C2.00009 5.01849 2.14389 4.66585 2.39978 4.40588C2.65567 4.14591 3.00268 3.99991 3.36448 4C3.72628 4.00009 4.07323 4.14625 4.329 4.40634L8.50843 8.65437L12.6879 4.40634C12.945 4.15367 13.2895 4.01375 13.6472 4.01674C14.0048 4.01973 14.347 4.16537 14.6 4.42231C14.8531 4.67924 14.9967 5.02691 14.9999 5.39043C15.0032 5.75395 14.8659 6.10423 14.6175 6.36583L9.47327 11.5955L9.47236 11.5945Z" fill="#B8B7B7"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_731_190">
+                            <rect width="17" height="17" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>                    
+                        <div class="filter-name">Разрешение экрана</div>
+                    </div>
+                    <div class="filter-content">
+                        <div class="block-100px"></div>
+                        <div class="block-200px"></div>
+                    </div>
                 </div>
-                <div class="filter__block">
-                    <svg width="17" height="17" viewBox="-1.5 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_731_190)">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.47236 11.5945C9.2166 11.8542 8.8699 12 8.50843 12C8.14696 12 7.80026 11.8542 7.54451 11.5945L2.39933 6.36676C2.14356 6.10667 1.99991 5.75396 2 5.38622C2.00009 5.01849 2.14389 4.66585 2.39978 4.40588C2.65567 4.14591 3.00268 3.99991 3.36448 4C3.72628 4.00009 4.07323 4.14625 4.329 4.40634L8.50843 8.65437L12.6879 4.40634C12.945 4.15367 13.2895 4.01375 13.6472 4.01674C14.0048 4.01973 14.347 4.16537 14.6 4.42231C14.8531 4.67924 14.9967 5.02691 14.9999 5.39043C15.0032 5.75395 14.8659 6.10423 14.6175 6.36583L9.47327 11.5955L9.47236 11.5945Z" fill="#B8B7B7"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_731_190">
-                        <rect width="17" height="17" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>
-                        
-                    <div class="filter-name">Тип подсветки экрана</div>
+                <div class="filter__block filter__block-hidden">
+                    <div class="filter__header filter__header-clickable  filter-closed">
+                        <svg width="17" height="17" viewBox="-1.5 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_731_190)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.47236 11.5945C9.2166 11.8542 8.8699 12 8.50843 12C8.14696 12 7.80026 11.8542 7.54451 11.5945L2.39933 6.36676C2.14356 6.10667 1.99991 5.75396 2 5.38622C2.00009 5.01849 2.14389 4.66585 2.39978 4.40588C2.65567 4.14591 3.00268 3.99991 3.36448 4C3.72628 4.00009 4.07323 4.14625 4.329 4.40634L8.50843 8.65437L12.6879 4.40634C12.945 4.15367 13.2895 4.01375 13.6472 4.01674C14.0048 4.01973 14.347 4.16537 14.6 4.42231C14.8531 4.67924 14.9967 5.02691 14.9999 5.39043C15.0032 5.75395 14.8659 6.10423 14.6175 6.36583L9.47327 11.5955L9.47236 11.5945Z" fill="#B8B7B7"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_731_190">
+                            <rect width="17" height="17" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                            
+                        <div class="filter-name">Тип подсветки экрана</div>
+                    </div>
+                    <div class="filter-content">
+                        <div class="block-100px"></div>
+                        <div class="block-200px"></div>
+                    </div>
                 </div>
-                <div class="filter__block">
-                    <svg width="17" height="17" viewBox="-1.5 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_731_190)">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.47236 11.5945C9.2166 11.8542 8.8699 12 8.50843 12C8.14696 12 7.80026 11.8542 7.54451 11.5945L2.39933 6.36676C2.14356 6.10667 1.99991 5.75396 2 5.38622C2.00009 5.01849 2.14389 4.66585 2.39978 4.40588C2.65567 4.14591 3.00268 3.99991 3.36448 4C3.72628 4.00009 4.07323 4.14625 4.329 4.40634L8.50843 8.65437L12.6879 4.40634C12.945 4.15367 13.2895 4.01375 13.6472 4.01674C14.0048 4.01973 14.347 4.16537 14.6 4.42231C14.8531 4.67924 14.9967 5.02691 14.9999 5.39043C15.0032 5.75395 14.8659 6.10423 14.6175 6.36583L9.47327 11.5955L9.47236 11.5945Z" fill="#B8B7B7"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_731_190">
-                        <rect width="17" height="17" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>
-                        
-                    <div class="filter-name">Поддержка Smart TV</div>
+                <div class="filter__block filter__block-hidden">
+                    <div class="filter__header filter__header-clickable filter-closed">
+                        <svg width="17" height="17" viewBox="-1.5 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_731_190)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.47236 11.5945C9.2166 11.8542 8.8699 12 8.50843 12C8.14696 12 7.80026 11.8542 7.54451 11.5945L2.39933 6.36676C2.14356 6.10667 1.99991 5.75396 2 5.38622C2.00009 5.01849 2.14389 4.66585 2.39978 4.40588C2.65567 4.14591 3.00268 3.99991 3.36448 4C3.72628 4.00009 4.07323 4.14625 4.329 4.40634L8.50843 8.65437L12.6879 4.40634C12.945 4.15367 13.2895 4.01375 13.6472 4.01674C14.0048 4.01973 14.347 4.16537 14.6 4.42231C14.8531 4.67924 14.9967 5.02691 14.9999 5.39043C15.0032 5.75395 14.8659 6.10423 14.6175 6.36583L9.47327 11.5955L9.47236 11.5945Z" fill="#B8B7B7"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_731_190">
+                            <rect width="17" height="17" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                            
+                        <div class="filter-name">Поддержка Smart TV</div>
+                    </div>
+                    <div class="filter-content">
+                        <div class="block-100px"></div>
+                        <div class="block-200px"></div>
+                    </div>
                 </div>
-                <div class="filter__block">
-                    <svg width="17" height="17" viewBox="-1.5 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_731_190)">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.47236 11.5945C9.2166 11.8542 8.8699 12 8.50843 12C8.14696 12 7.80026 11.8542 7.54451 11.5945L2.39933 6.36676C2.14356 6.10667 1.99991 5.75396 2 5.38622C2.00009 5.01849 2.14389 4.66585 2.39978 4.40588C2.65567 4.14591 3.00268 3.99991 3.36448 4C3.72628 4.00009 4.07323 4.14625 4.329 4.40634L8.50843 8.65437L12.6879 4.40634C12.945 4.15367 13.2895 4.01375 13.6472 4.01674C14.0048 4.01973 14.347 4.16537 14.6 4.42231C14.8531 4.67924 14.9967 5.02691 14.9999 5.39043C15.0032 5.75395 14.8659 6.10423 14.6175 6.36583L9.47327 11.5955L9.47236 11.5945Z" fill="#B8B7B7"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_731_190">
-                        <rect width="17" height="17" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>
-                        
-                    <div class="filter-name">Частота обновления экрана</div>
+                <div class="filter__block filter__block-hidden">
+                    <div class="filter__header filter__header-clickable filter-closed">
+                        <svg width="17" height="17" viewBox="-1.5 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_731_190)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.47236 11.5945C9.2166 11.8542 8.8699 12 8.50843 12C8.14696 12 7.80026 11.8542 7.54451 11.5945L2.39933 6.36676C2.14356 6.10667 1.99991 5.75396 2 5.38622C2.00009 5.01849 2.14389 4.66585 2.39978 4.40588C2.65567 4.14591 3.00268 3.99991 3.36448 4C3.72628 4.00009 4.07323 4.14625 4.329 4.40634L8.50843 8.65437L12.6879 4.40634C12.945 4.15367 13.2895 4.01375 13.6472 4.01674C14.0048 4.01973 14.347 4.16537 14.6 4.42231C14.8531 4.67924 14.9967 5.02691 14.9999 5.39043C15.0032 5.75395 14.8659 6.10423 14.6175 6.36583L9.47327 11.5955L9.47236 11.5945Z" fill="#B8B7B7"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_731_190">
+                            <rect width="17" height="17" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                            
+                        <div class="filter-name">Частота обновления экрана</div>
+                    </div>
+                    <div class="filter-content">
+                        <div class="block-100px"></div>
+                        <div class="block-200px"></div>
+                    </div>
                 </div>
 
                 <div class="filter-buttons flex_column">
@@ -970,5 +1012,26 @@
             }
         })
     });
+
+    var filters = Array.from(document.getElementsByClassName("filter__header-clickable"));
+    filters.forEach(filter => {
+        filter.addEventListener('click', function(){
+            var parent = filter.parentElement;
+            var parentHeight = Array.from(parent.children).reduce((height, childHeight)=> height + childHeight.clientHeight, 0);
+            if(filter.classList.contains("filter-closed")){
+                parent.style.height = parentHeight+"px";
+                
+
+                filter.classList.remove("filter-closed");
+                filter.classList.add("filter-opened");
+            } else if(filter.classList.contains("filter-opened")){
+                parent.style.height = filter.clientHeight+"px";
+
+                filter.classList.remove("filter-opened");
+                filter.classList.add("filter-closed");
+            }
+        })
+    })
+    console.log(filters);
 </script>
 </html>
