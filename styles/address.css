@@ -1,0 +1,106 @@
+.block-name
+{
+    font-size: 20px;
+    color: rgba(95, 95, 95, .75);
+}
+
+.person, .company, .receive__pickup, .receive__delivery
+{
+    background-color: white;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.sign-in
+{
+    width: 420px;
+    height: 40px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.buyer-details
+{
+    gap: 20px;
+}
+
+.main-info
+{
+    gap: 40px;
+}
+
+.input-contact
+{
+    width: 420px;
+    height: 60px;
+    font-size: 16px;
+}
+
+.shop
+{
+    background-color: white;
+}
+
+.shop__tag
+{
+    background-color: #E6DEF3;
+    color: #6C41B9;
+    width: 100px;
+}
+
+body
+{
+    margin: 10px 0;
+}
+
+.shop__name
+{
+    font-size: 18px;
+    color: #5F5F5F;
+    font-weight: bold;
+}
+
+.shop__time
+{
+    font-size: 14px;
+}
+
+.can-pick-order
+{
+    font-size: 12px;
+}
+
+.pick-order-status
+{
+    font-size: 18px;
+    color: #1ACA0B;
+    font-weight: bold;
+}
+
+.btn-change-shop
+{
+    height: 40px;
+    width: 180px;
+    font-size: 14px;
+    /* border: 0; */
+    background-color: white;
+}
+
+
+.shop
+{
+    justify-content: space-between;
+}
+
+.shop__info
+{
+    gap: 8px;
+    padding-bottom: 12px;
+}
+
+.shop__info > div
+{
+    margin-left: 12px;
+    margin-top: 8px;
+}

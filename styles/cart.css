@@ -1,0 +1,192 @@
+.shop-cart
+{
+    height: 446px;
+    width: 972px;
+    gap: 15px;
+}
+
+.terms-order
+{
+    width: 372px;
+    height: 446px;
+}
+
+.cart-panel
+{
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+
+.shop-cart__text
+{
+    align-items: flex-end;
+    gap: 22px;
+}
+
+.cart-name
+{
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.cart-amount
+{
+    font-size: 17px;
+    color: #726E6E;
+    line-height: 7px;
+}
+
+.cart__sel-all
+{
+    background-color: white;
+    height: 48px;
+    margin-top:15px;
+}
+
+.sel-all-text
+{
+    font-size: 17px;
+}
+
+.product
+{
+    height: 160px;
+    background-color: white;
+    gap: 20px;
+}
+
+.cart__product-img > img
+{
+    height: 80px;
+    width: 114px;
+}
+
+.product-name
+{
+    font-size: 18px;
+}
+
+.product-delivery
+{
+    font-size: 14px;
+}
+
+.sum
+{
+    background: none;
+}
+
+.cart__product-price
+{
+    width: 80px;
+    gap: 10px;
+}
+
+.cart__product-info
+{
+    width: 70%;
+}
+
+.full-price
+{
+    text-align: right;
+}
+
+.terms-order__top
+{
+    justify-content: space-between;
+}
+
+.share, .print
+{
+    align-items: flex-start;
+    text-align: center;
+    gap: 14px;
+    font-size: 16px;
+}
+
+
+.terms-order__center
+{
+    margin-top: 26px;
+}
+
+.terms-order__name
+{
+    background-color: white;
+    font-size: 22px;
+    font-weight: bold;
+    height: 41px;
+    display: flex;
+    align-items: flex-end;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+}
+
+.terms-order__name > div
+{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.terms-order__storage
+{
+    height: 62px;
+    margin-left: 10px;
+}
+
+.storage-get_text
+{
+    font-size: 16px;
+}
+
+.storage-term_text
+{
+    font-size: 14px;
+}
+
+.terms-order__finish
+{
+    background-color: white;
+    padding-bottom: 15px;
+    gap: 15px;
+    
+}
+
+.terms-order__finish > div
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.product__delivery
+{
+    justify-content: space-between;
+}
+
+.total_info
+{
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.btn_finish
+{
+    width: 315px;
+    height: 60px;
+    background-color: #1ACA0B;
+    border: 0;
+    border-radius: 10px;
+    color:white;
+    font-size: 16px;
+}
+
+.finish_cart
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

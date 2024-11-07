@@ -31,6 +31,53 @@ body
     gap: 2.5px;
 }
 
+.frame_5_gray
+{
+    border-radius: 5px;
+    border: 1px solid rgba(229, 229, 229, .5);
+}
+
+.frame_10_gray
+{
+    border-radius: 10px;
+    border: 1px solid #F3F2F2;
+}
+
+.flex_text-center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__delivery
+{
+    gap: 10px;
+}
+
+.product__delivery > div
+{
+    background-color: rgba(217, 217, 217, .2);
+    border-radius: 8px;
+    font-size: 15px;
+    gap: 0px;
+    width: 160px;
+    height: 40px;
+    justify-content: space-between; 
+}
+
+.delivery-img, .store-img
+{
+    padding-right: 18px;
+}
+
+.left-delivery-info
+{
+    margin-left: 10px;
+    gap: 0px;
+    justify-content: space-around;
+}
+
 
 .card__tag
 {
@@ -115,3 +162,14 @@ body
     color: #0563BB;
 }
 
+
+.link_blue
+{
+    color: #0563BB;
+}
+
+.text_16_bold
+{
+    font-size: 16px;
+    font-weight: bold;
+}

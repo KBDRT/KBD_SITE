@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="styles/basic.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/address.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
+<body>
+
+    <div class="wrapper flex_row">
+
+        <div class="left-address">
+
+            <div class="top-info flex_row">
+                <svg width="135" height="26" viewBox="0 0 135 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 21.86V15.416L5.364 13.976V0.799998H14.76V11.42L33.156 6.452V0.799998H42.552V10.376L28.44 14.192L36.54 20.6H42.768V26H30.96L19.116 16.676L14.76 17.864V26H5.364V20.42L0 21.86ZM45.2812 5.912V0.799998H88.0493V10.7L79.8053 13.4L88.0493 16.1V26H50.6453V5.912H45.2812ZM60.0413 20.888H78.6533V19.052L71.5613 15.956H60.0413V20.888ZM60.0413 10.844H71.5613L78.6533 7.748V5.912H60.0413V10.844ZM91.3008 5.912V0.799998H122.549L134.033 6.92V26H96.6648V5.912H91.3008ZM106.097 20.888H124.673V8.36L120.065 5.912H106.097V20.888Z" fill="#41A31F"/>
+                </svg>
+                <div class="order-info flex_column"> 
+                    <div class="amount-product">Оформляем 3 товара </div>
+                    <div class="order-summ">за 8197 ₽</div>
+                </div>
+            </div>
+
+            <div class="flex_column main-info">
+                <div class="buyer-details flex_column">
+                    <div class="block-name">Данные покупателя</div>
+                    <div class="buyer-type flex_row">
+                        <div class="person frame_10_gray flex_text-center">Физическое лицо</div>
+                        <div class="company frame_10_gray flex_text-center">Юридическое лицо</div>
+                    </div>
+                    <div class="sign-in frame_10_gray flex_text-center">Есть учетная запись? Войти</div>
+                    <div class="flex_row">
+                        <div><input class="input-contact frame_10_gray"  type="tel" placeholder="Телефон"></div>
+                        <div><input class="input-contact frame_10_gray" type="email" placeholder="E-mail (необязательно)"></div>
+                    </div>
+                </div>
+                <div class="receive-order">
+                    <div class="block-name">Выберите способ получения</div>
+                    <div class="city">в г. Набережные Челны</div>
+                    <div class="flex_column shop-info">
+                        <div class="flex_row">
+                            <div class="frame_10_gray receive__pickup flex_text-center">Самовывоз</div>
+                            <div class="frame_10_gray receive__delivery flex_text-center">Доставка от 350 ₽</div>
+                        </div>
+                        <div class="shop flex_row frame_10_gray">
+                            <div class="shop__info flex_column">
+                                <div class="card__tag shop__tag">Кредит онлайн</div>
+                                <div>
+                                    <div class="shop__name">TЕХНОПОИНТ ТЦ ОМЕГА</div>
+                                    <div class="shop__time">Ежедневно с 09:00 до 21:00</div>
+                                </div>
+                                <div>
+                                    <div class="can-pick-order">Можно забрать заказ:</div>
+                                    <div class="pick-order-status">Доступно</div>
+                                </div>
+                                <div ><input class="frame_10_gray btn-change-shop" type="button" value="Изменить магазин"></div>
+                            </div>
+                            <div class="shop__map">
+                                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A61f3ffacd8c18cbd0029c05173186b8c5cbd8cc5923451c737187aac8cc66c37&amp;source=constructor" width="405" height="252" frameborder="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-method">
+                    <div class="block-name">Выберите способ оплаты</div>
+                    <div class="flex_row">
+                        <div>Онлайн</div>
+                        <div>При получении</div>
+                        <div>В кредит</div>
+                    </div>
+                    <div class="flex_row">
+                        <div>СБП</div>
+                        <div>КАРТЫ</div>
+                        <div>с-pay</div>
+                        <div>ю-money</div>
+                    </div>
+                </div>
+
+                <div>
+                    <input type="button" value="Подвердить заказ">
+                </div>
+
+                <div class="rules flex_row">
+                    <div class="rules__normal">Подтверждая заказ, Вы соглашаетесь с условиями</div>
+                    <div class="rules__link">политики конфиденциальности</div>
+                    <div class="rules__normal">и</div>
+                    <div class="rules__link">правилами продажи.</div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="right-address">
+            <div>
+                <div></div>
+                <div>Безопасная оплата</div>
+                <div>Ваши платежи под надежной защитой</div>
+            </div>
+
+            <div>
+                <div></div>
+                <div>Легкий возврат</div>
+                <div>Вернем всю сумму или обменяем товар</div>
+            </div>
+
+            <div>
+                <div></div>
+                <div>Нужна помощь</div>
+                <div>8-800-123-45-67-78 (с 03:00 до 22:00)</div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
