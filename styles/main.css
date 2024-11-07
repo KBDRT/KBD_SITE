@@ -6,11 +6,7 @@ main
     gap: 20px;
 }
 
-.wrapper
-{
-    width: 1400px;
-    margin: auto;
-}
+
 
 
 
@@ -141,13 +137,7 @@ main
     font-size: 13px;
 }
 
-.flex_row
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 5px;
-}
+
 
 .stars
 {
@@ -159,12 +149,7 @@ main
     margin-left: 5px;
 }
 
-.flex_column
-{
-    display: flex;
-    flex-direction: column;
-    gap: 2.5px;
-}
+
 
 .credit
 {
@@ -310,60 +295,6 @@ main
 .page
 {
     width: 40px;
-}
-
-footer
-{
-    margin-top: 60px;
-    width: 100%;
-    background-color: #333333;
-    color:white;
-}
-
-.footer__logo
-{
-    margin: 5px 0 15px;
-}
-
-.footer-content
-{
-    justify-content: space-between;
-}
-
-.links__company, .links__feedback, .customers-right, .customers-left
-{
-    width: 15vw;
-    gap: 20px;
-}
-
-.customers-right, .customers-left
-{
-    margin-top: 20px;
-}
-
-
-.footer__links
-{
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.link-name
-{
-    border-bottom: 1px solid #DDDDDD;
-    padding-bottom: 20px;
-}
-
-.footer-link
-{
-    font-size: 14px;
-    
-}
-
-.footer__copyright
-{
-    margin: 30px 0 20px;
-    font-size: 12px;
 }
 
 .filter-price
