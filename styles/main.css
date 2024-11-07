@@ -104,90 +104,6 @@ main
     font-size: 17px;
 }
 
-.card__tag
-{
-    background-color: rgba(26, 202, 11, .15);
-    font-size: 11px;
-    width: 66px;
-    height: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #2C8D0A;
-    border-radius: 8px;
-}
-
-.card__rate
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 30px;
-}
-
-.cond > input
-{
-    width: 17px;
-    height: 17px;
-}
-
-.cond, .rate-count
-{
-    font-size: 13px;
-}
-
-
-
-.stars
-{
-    margin-left: 18px;
-}
-
-.rate-count
-{
-    margin-left: 5px;
-}
-
-
-
-.credit
-{
-    font-size: 11px;
-}
-
-.sum
-{
-    width: 240px;
-    height: 40px;
-    justify-content: space-between;
-    background-color: rgba(217, 217, 217, .2);
-    border-radius: 8px;
-}
-
-.full-price
-{
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.favourite, .buy
-{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    border-radius: 8px;
-    background-color: rgba(217, 217, 217, .2);
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.shop-count, .delivery-date
-{
-    color: #0563BB;
-}
-
 .card__img > img
 {
  
@@ -201,10 +117,7 @@ main
     justify-content: center;
 }
 
-.in-store, .delivery
-{
-    font-size: 15px;
-}
+
 
 .btn-apply, .btn-clear
 {

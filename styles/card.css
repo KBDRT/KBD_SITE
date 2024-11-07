@@ -1,0 +1,322 @@
+.product-path
+{
+    /* margin: 25px auto 0; */
+    margin-top: 50px;
+}
+
+.product-path__text
+{
+    font-size: 14px;
+}
+
+.product-name__text
+{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.product-info
+{
+    border-radius: 20px;
+    background-color: white;
+    height: 560px;
+    margin-top:20px;
+    align-items: flex-start;
+    padding-top: 40px;
+    gap: 66px;
+    /* justify-items: flex-start;
+    justify-content: center; */
+}
+
+.properties__more
+{
+    color: #0563BB;
+}
+
+.product__small-properties
+{
+    font-size: 16px;
+}
+
+.product-info__top
+{
+    margin-top: 40px;
+}
+
+.small_img
+{
+    width: 40px;
+    height: 25px;
+}
+
+.product__main-img
+{
+    margin-top: 60px;
+}
+
+.main_img
+{
+    width: 500px;
+    height: 350px;
+}
+
+.left-delivery-info
+{
+    gap: 0px;
+}
+
+.product__delivery
+{
+    gap: 10px;
+}
+
+.product__delivery > div
+{
+    background-color: rgba(217, 217, 217, .2);
+    border-radius: 8px;
+    font-size: 15px;
+    gap: 0px;
+    width: 160px;
+    height: 40px;
+    justify-content: space-between; 
+}
+
+.color-black, .color-gray
+{
+    width: 28px;
+    height: 28px;
+}
+
+.color-black
+{
+    background-color: black;
+}
+
+.color-gray
+{
+    background-color: gray;
+}
+
+.color-sel
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #767676;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.warranty-panel
+{
+    gap: 25px;
+    font-size: 13px;
+}
+
+.warranty-sel
+{
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1.5px solid rgba(229, 229, 229, .5);
+}
+
+.product__menu
+{
+    gap: 25px;
+    margin-top: 70px;
+}
+
+.color-text, .warranty-text
+{
+    font-size: 14px;
+}
+
+/* .product__tag
+{
+    margin-left: 150px;
+} */
+
+.product__photos
+{
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+.product-info__main
+{
+    gap: 70px;
+}
+
+.product__photos
+{
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.product-info__main
+{
+    margin-top: 30px;
+}
+
+.sum
+{
+    width: 360px;
+}
+
+.product__price
+{
+    gap: 24px;
+}
+
+.full-price
+{
+    font-size: 20px;
+    padding-left: 4px;
+    padding-top: 2px;
+}
+
+.credit
+{
+    font-size: 13px;
+    padding-left: 4px;
+}
+
+.in-store, .delivery
+{
+    font-size: 12px;
+}
+
+.shop-count, .delivery-date
+{
+    font-size: 13px;
+}
+
+.delivery-img, .store-img
+{
+    padding-right: 25px;
+}
+
+.bottom-panel
+{
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 26px;
+}
+
+.left-block
+{
+    width: 260px;
+    border-radius: 20px;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 0;
+    gap:32px;
+}
+
+.left-block > div
+{
+    width: 100%;
+    height: 80px;
+}
+
+
+.product-description
+{
+    width: 1080px;
+    /* padding-bottom: 14px; */
+    /* justify-content: space-between; 
+    align-items: flex-start; */
+}
+
+.product-description > div
+{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.property-text, .description-text
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.product-full-properties
+{
+    gap: 14px;
+    padding-bottom: 14px;
+}
+
+.product-full-properties > div, .product-full-description > div
+{
+    padding-left: 10px;
+}
+
+.property-name
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.property-parameter
+{
+    font-size: 14px;
+}
+
+.property-parameter__name
+{
+    width: 354px;
+    border-bottom: 1.25px dotted rgba(0, 0, 0, .3);
+}
+
+.property
+{
+    gap: 10px;
+}
+
+.description-main
+{
+    margin-top: 14px;
+    font-size: 15px;
+}
+
+.product-full-description
+{
+    margin-top: 10px;
+    padding-bottom: 25px;
+}
+
+.property-info
+{
+    justify-content: space-between;
+}
+
+.property-info__choise, .property-info__show
+{
+    font-size: 13px;
+}
+
+.property-info__show
+{
+    border: 1px solid rgba(0, 0, 0, .25);
+    border-radius: 5px;
+    height: 25px;
+    width: 146px;
+    justify-content: space-between;
+}
+
+.property-info__show-arrow
+{
+    margin-right: 5px;
+}
+
+.property-info__show-text
+{
+    margin-left: 5px;
+}
+
+.property-info__choise
+{
+    margin-right: 10px;
+}
