@@ -4,30 +4,46 @@
     color: rgba(95, 95, 95, .75);
 }
 
-.person, .company, .receive__pickup, .receive__delivery
+.person, .company, .receive__pickup, .receive__delivery, .payment
 {
-    background-color: white;
+    background-color: rgba(229, 229, 229, .5);
     width: 140px;
     height: 40px;
-    font-size: 16px;
+    font-size: 15px;
 }
+
+.person:hover, .company:hover, .receive__pickup:hover, .receive__delivery:hover, .payment:hover, div[name="card"]
+{
+    cursor: pointer;
+}
+
+
+.border--selected
+{
+    background-color: white;
+    border: 1px solid  black;
+}
+
+
 
 .sign-in
 {
     width: 420px;
     height: 40px;
     font-size: 16px;
+    margin-top: 15px;
     background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
 }
 
-.buyer-details
-{
-    gap: 20px;
-}
 
 .main-info
 {
-    gap: 40px;
+    gap: 32px;
+    border-right: 1.5px solid rgba(229, 229, 229, .5);
+    padding-right: 50px; 
 }
 
 .input-contact
@@ -40,6 +56,8 @@
 .shop
 {
     background-color: white;
+    width: 856px;
+    justify-content: space-between;
 }
 
 .shop__tag
@@ -88,19 +106,102 @@ body
 }
 
 
-.shop
-{
-    justify-content: space-between;
-}
-
 .shop__info
 {
     gap: 8px;
     padding-bottom: 12px;
 }
 
+
 .shop__info > div
 {
     margin-left: 12px;
     margin-top: 8px;
+}
+
+.shop__map
+{
+    margin-right: 10px;
+}
+
+.payment-card
+{
+    width: 200px;
+    height: 90px;
+    background-color: white;
+}
+
+.payment-card > img
+{
+    width: 60px;
+    height: 35px;
+}
+
+.payment-cards
+{
+    justify-content: space-between;
+}
+
+.bonuses
+{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    font-size: 16px;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.payment-method__sections
+{
+    gap: 15px;
+}
+
+.btn-finish
+{
+    margin-top: 20px;
+}
+
+.rules
+{
+    font-size: 12px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.mrg_top_15
+{
+    margin-top: 15px;
+}
+
+.mrg_top_25
+{
+    margin-top: 25px;
+}
+
+.info-section
+{
+    align-items: stretch;
+    gap: 20px; 
+}
+
+.order-info
+{
+    border-left: 1px solid rgba(229, 229, 229, .5);
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #756E6E;
+    line-height: 95%;
+}
+
+.description-info
+{
+    font-size: 14px;
+}
+
+.right-address
+{
+    gap: 64px;
+    margin-left: 10px;
 }

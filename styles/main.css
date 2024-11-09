@@ -36,7 +36,7 @@ main
 .filter__block
 {
     display: flex;
-    flex-direction: row; 
+    /* flex-direction: row;  */
     align-items: center;
     height: 40px;
     border-bottom:1px solid rgba(26,202,11,.85);
@@ -59,13 +59,13 @@ main
 
 .filter-name
 {
-    font-size: 17px;
+    font-size: 16px;
     margin-left: 14px;
 }
 
 .filter-price
 {
-    height: 156px;
+    height: 138px;
 }
 
 .filter__block:last-child
@@ -85,7 +85,7 @@ main
 .card
 {
     width: 350px;
-    height: 530px;
+    height: 514px;
     background-color: white; 
     border-radius: 12px;
     border:1px solid rgba(26,202,11,.5);
@@ -104,7 +104,7 @@ main
     font-size: 17px;
 }
 
-.card__img > img
+.card__img  img
 {
  
     width: 200px;
@@ -123,17 +123,19 @@ main
 {
     width: 240px;
     height: 40px;
-    border-radius: 12px;
-    font-size: 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: 0;
 }
 
 .filter-buttons
 {
     justify-content: center;
     align-items: center;
-    margin-top: 8px;
+    margin-top: 20px;
     margin-bottom: 16px;
     gap: 20px;
+    padding-bottom: 10px;
 }
 
 
@@ -147,14 +149,14 @@ main
 .btn-clear
 {
     background-color: white;
-    border:1px solid black;
+    border:1.5px solid rgb(26, 26, 26);
 }
 
 .gifts
 {
     margin-top: 20px;
     width: 274px;
-    height: 120px;
+    height: 114px;
     background-color: white;
     border:1px solid rgba(65,163,31,.75);
     border-radius: 12px;
@@ -162,15 +164,16 @@ main
 
 .gift-name
 {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: bolder;
     margin-left: 15px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
+
 
 .btn-choice
 {
-    border-radius: 10px;
+    border-radius: 8px;
     width: 135px;
     height: 35px;
     margin-top: 10px;
@@ -180,6 +183,12 @@ main
     /* color: rgba(95, 95, 95, .75); */
     text-align: center;
     vertical-align: middle;
+}
+
+.btn-choice:hover
+{
+    color:white;
+    background-color: rgba(184, 183, 183, .5);
 }
 
 .show-more, .pages
@@ -208,7 +217,15 @@ main
 .page
 {
     width: 40px;
+    height: 100%;
 }
+
+.page:hover
+{
+    background-color: rgba(113, 253, 111, .25);
+    cursor: pointer;
+}
+
 
 .filter-price
 {
