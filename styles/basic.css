@@ -5,7 +5,6 @@ body
     flex-direction: column;
     background: rgba(217,217,217,.2);
     align-items: center;
-    /* width: 1400px; */
     margin:105px auto 0;
     font-family: 'PT Sans', sans-serif;
 }
@@ -50,6 +49,82 @@ body
     align-items: center;
 }
 
+.placeholder-gray
+{
+    color: rgba(95, 95, 95, .75);
+}
+
+.btn_green
+{
+    width: 315px;
+    height: 60px;
+    background-color: #1ACA0B;
+    border: 0;
+    border-radius: 10px;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn_green:hover
+{
+    background-color: #19970E; 
+    cursor: pointer;  
+}
+
+.gray--hover:hover
+{
+    background-color: rgba(184, 183, 183, .5);
+}
+
+.link_blue
+{
+    color: #0563BB;
+}
+
+.link_blue:hover
+{
+    color:  #1ACA0B;
+    cursor: pointer;
+}
+
+.text_16_bold
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.figure-circle-section
+{
+    width: 26px; 
+    height: 26px;
+    background: #D9D9D9;
+    border-radius: 50%;
+}
+
+.link-decoration--none, .link-decoration--none:active, link-decoration--none:hover
+{
+    text-decoration: none;
+    color: black;
+}
+
+a.card__link-decoration, a.card__link-decoration:active
+{
+    text-decoration: none;
+    color: black;
+}
+
+a.card__link-decoration:hover
+{
+    color: green;
+}
+
+.checkbox--17
+{
+    width: 17px;
+    height: 17px;
+}
+
 .product__delivery
 {
     gap: 10px;
@@ -78,30 +153,6 @@ body
     justify-content: space-around;
 }
 
-.placeholder-gray
-{
-    color: rgba(95, 95, 95, .75);
-}
-
-.btn_green
-{
-    width: 315px;
-    height: 60px;
-    background-color: #1ACA0B;
-    border: 0;
-    border-radius: 10px;
-    color:white;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.btn_green:hover
-{
-    background-color: #19970E; 
-    cursor: pointer;  
-}
-
-
 .card__tag
 {
     background-color: rgba(26, 202, 11, .15);
@@ -115,7 +166,6 @@ body
     color: #2C8D0A;
     border-radius: 8px;
 }
-
 
 /* Product rating */
 .card__rate
@@ -186,64 +236,7 @@ body
     background-color: rgba(217, 217, 217, .2);
 }
 
-.gray--hover:hover
-{
-    background-color: rgba(184, 183, 183, .5);
-}
-
-
 .shop-count, .delivery-date
 {
     color: #0563BB;
-}
-
-
-.link_blue
-{
-    color: #0563BB;
-}
-
-.link_blue:hover
-{
-    color:  #1ACA0B;
-    cursor: pointer;
-}
-
-
-.text_16_bold
-{
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.figure-circle-section
-{
-    width: 26px; 
-    height: 26px;
-    background: #D9D9D9;
-    border-radius: 50%;
-}
-
-.link-decoration--none, .link-decoration--none:active, link-decoration--none:hover
-{
-    text-decoration: none;
-    color: black;
-}
-
-
-a.card__link-decoration, a.card__link-decoration:active
-{
-    text-decoration: none;
-    color: black;
-}
-
-a.card__link-decoration:hover
-{
-    color: green;
-}
-
-.checkbox--17
-{
-    width: 17px;
-    height: 17px;
 }

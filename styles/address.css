@@ -17,14 +17,11 @@
     cursor: pointer;
 }
 
-
 .border--selected
 {
     background-color: white;
     border: 1px solid  black;
 }
-
-
 
 .sign-in
 {
@@ -37,7 +34,6 @@
     align-items: center;
     padding-left: 10px;
 }
-
 
 .main-info
 {
@@ -101,7 +97,6 @@ body
     height: 40px;
     width: 180px;
     font-size: 14px;
-    /* border: 0; */
     background-color: white;
 }
 

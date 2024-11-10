@@ -41,7 +41,6 @@ header
     width: 420px;
 }
 
-
 .header-bottom
 {
     display: flex;
@@ -101,8 +100,6 @@ header
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    /* margin-left:20px; */
 }
 
 .right-menu a
@@ -112,7 +109,6 @@ header
     justify-content: center;
     align-items: center;
 }
-
 
 .top-bar
 {
@@ -130,7 +126,6 @@ header
     display: flex;
     flex-direction: column;
     gap: 10px;
-    /* border: 0.15em solid rgba(118,112,112,.80); */
 }
 
 .top-bar__name
@@ -176,7 +171,6 @@ header
 {
     background-color: #FFEFEF;
 }
-
 
 .header-right-section, .header-right-section:active
 {
